@@ -21,7 +21,7 @@ $(function() {
 function showImage(res) {
   var $content = $('#content');
   $content.html('');
-  console.log(res);
+  // console.log(res);
   var pics = res['data'];
   for(var i=0; i<12; i++) {
     var img = $('<img>').attr("src", pics[i].images.thumbnail.url);
